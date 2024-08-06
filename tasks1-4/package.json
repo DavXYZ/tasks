@@ -1,0 +1,19 @@
+{
+  "name": "homework-epam2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": " node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "http": "^0.0.1-security",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "uuid": "^10.0.0"
+  }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat with Duplex Streams</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <header>
+        <h1>Real-Time Chat</h1>
+    </header>
+    <main>
+        <ul id="messages"></ul>
+        <form id="form" action="">
+            <input id="username" autocomplete="off" placeholder="Enter your username..."/>
+            <input id="input" autocomplete="off" placeholder="Type your message..."/>
+            <button>Send</button>
+        </form>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/main.js"></script>
+</body>
+</html>
